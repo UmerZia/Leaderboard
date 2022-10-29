@@ -1,190 +1,191 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Montserrat+Alternates:wght@300;500&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    font-family: 'Montserrat Alternates', sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 body {
-    background-image:
-        linear-gradient(to right bottom,
-            #d53e57,
-            #c4394e,
-            #b33346,
-            #a32e3e,
-            #932936,
-            #8b2239,
-            #821d3b,
-            #78183d,
-            #6e1649,
-            #601a54,
-            #4c205e,
-            #322564);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+  background-image:
+    linear-gradient(
+      to right bottom,
+      #d53e57,
+      #c4394e,
+      #b33346,
+      #a32e3e,
+      #932936,
+      #8b2239,
+      #821d3b,
+      #78183d,
+      #6e1649,
+      #601a54,
+      #4c205e,
+      #322564
+    );
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 .title {
-    color: white;
-    font-size: 25px;
-    padding: 40px;
+  color: white;
+  font-size: 25px;
+  padding: 40px;
 }
 
 .score-div {
-    padding: 0 80px;
+  padding: 0 80px;
 }
 
 .score-title {
-    display: flex;
-    gap: 20px;
-    margin-bottom: 20px;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
 }
 
 .score-title h2 {
-    color: white;
-    font-size: 30px;
+  color: white;
+  font-size: 30px;
 }
 
 .score-title button {
-    width: 70px;
+  width: 70px;
 }
 
 .data-Container-main {
-    width: 20vw;
+  width: 20vw;
 }
 
 .btn {
-    border: none;
-    color: white;
-    cursor: pointer;
-    border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
 
-    /* Created with https://www.css-gradient.com */
-    background: #322564;
-    background: -webkit-radial-gradient(center, #322564, #68648c);
-    background: -moz-radial-gradient(center, #322564, #68648c);
-    background: radial-gradient(ellipse at center, #322564, #68648c);
+  /* Created with https://www.css-gradient.com */
+  background: #322564;
+  background: -webkit-radial-gradient(center, #322564, #68648c);
+  background: -moz-radial-gradient(center, #322564, #68648c);
+  background: radial-gradient(ellipse at center, #322564, #68648c);
 }
 
 .btn:hover {
-    background: #d53e57;
-    background: -webkit-radial-gradient(center, #d53e57, #7e222c);
-    background: -moz-radial-gradient(center, #d53e57, #7e222c);
-    background: radial-gradient(ellipse at center, #d53e57, #7e222c);
+  background: #d53e57;
+  background: -webkit-radial-gradient(center, #d53e57, #7e222c);
+  background: -moz-radial-gradient(center, #d53e57, #7e222c);
+  background: radial-gradient(ellipse at center, #d53e57, #7e222c);
 }
 
 .conatiner-header {
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    font-size: 22px;
-    background-color: rgb(55, 60, 74);
-    color: rgb(160, 175, 203);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-size: 22px;
+  background-color: rgb(55, 60, 74);
+  color: rgb(160, 175, 203);
 }
 
 #click-here {
-    font-style: italic;
-    cursor: pointer;
-    width: 100px;
-    margin-left: 1rem;
+  font-style: italic;
+  cursor: pointer;
+  width: 100px;
+  margin-left: 1rem;
 }
 
 #click-here:hover {
-    color: #c4394e;
+  color: #c4394e;
 }
 
 li:last-child {
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .new-game {
-    padding: 15px;
-    color: white;
+  padding: 15px;
+  color: white;
 }
 
 .new-game-div {
-    display: flex;
-    flex-direction: column;
-    opacity: 0.7;
-    padding-right: 80px;
-    height: 20vh;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding: 10px;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.7;
+  height: 20vh;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 10px;
 }
 
 .scores li {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 25px;
-    color: white;
-    background: #ff3a54;
-    background: -webkit-linear-gradient(bottom, #ff3a54, #d90048);
-    background: -moz-linear-gradient(bottom, #ff3a54, #d90048);
-    background: linear-gradient(to top, #ff3a54, #d90048);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+  color: white;
+  background: #ff3a54;
+  background: -webkit-linear-gradient(bottom, #ff3a54, #d90048);
+  background: -moz-linear-gradient(bottom, #ff3a54, #d90048);
+  background: linear-gradient(to top, #ff3a54, #d90048);
 }
 
 .conatiner-header span {
-    font-size: 32px;
-    background-color: rgb(55, 60, 74);
-    color: rgb(220, 64, 81);
+  font-size: 32px;
+  background-color: rgb(55, 60, 74);
+  color: rgb(220, 64, 81);
 }
 
 .sub-main2 {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
 }
 
 .sub-main2 input {
-    padding: 7px;
-    align-self: start;
-    border-radius: 5px;
+  padding: 7px;
+  align-self: start;
+  border-radius: 5px;
 }
 
 .title-add {
-    color: white;
-    padding-bottom: 40px;
+  color: white;
+  padding-bottom: 40px;
 }
 
 .new-game-div #GameId {
-    align-self: flex-start;
+  align-self: flex-start;
 }
 
 #YourGameID {
-    color: #c9acb1;
+  color: #c9acb1;
 }
 
 .new-game-div #creatnew {
-    align-self: flex-start;
+  align-self: flex-start;
 }
 
 .sub-main2 button {
-    align-self: start;
-    width: 60px;
-    height: 30px;
-    margin-left: 115px;
+  align-self: start;
+  width: 60px;
+  height: 30px;
+  margin-left: 115px;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .material-symbols-outlined {
-    font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 200, 'opsz' 48;
+  font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 200, 'opsz' 48;
 }
