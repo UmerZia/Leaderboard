@@ -1,4 +1,4 @@
-import { GameId } from './newGame.js';
+import { GameId } from './game.js';
 
 const getResponse = async (scoreInfo) => {
   const response = await fetch(

@@ -1,13 +1,13 @@
 const newgame = async () => {
   const response = await fetch(
-    "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/",
+    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/',
     {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        name: "My cool new game",
+        name: 'My cool new game',
       }),
-    }
+    },
   );
 
   const data = await response.json();
@@ -29,9 +29,8 @@ const creatNewGame = () => {
     // eslint-disable-next-line prefer-destructuring
     GameId = GameId[0];
   });
-  const container = document.getElementById("data-container");
-  container.innerHTML =
-    "New game has been successfully Created please press refresh and start adding players and there scores";
+  const container = document.getElementById('data-container');
+  container.innerHTML = 'New game has been successfully Created please press refresh and start adding players and there scores';
 };
 
 export { GameId, creatNewGame };

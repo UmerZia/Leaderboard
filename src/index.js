@@ -1,2 +1,2 @@
-import './style.css';
-import './js/appFunctions.js';
+import './styles.css';
+import './modules/addScore.js';
