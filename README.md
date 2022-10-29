@@ -6,7 +6,11 @@
 
 #### Milestones:
 
-- [x] Use Webpack.
+- [x] Design Leader board page.
+- [x] Use ES6 modules.
+- [x] Create new game using API.
+- [x] Use async and await JavaScript features to consume the API.
+- [x] Style Leader board page.
 
 ## Built With
 
