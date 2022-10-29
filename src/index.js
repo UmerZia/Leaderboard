@@ -1,2 +1,2 @@
-import './styles.css';
-console.log("Hi")
+import './style.css';
+import './js/appFunctions.js';
