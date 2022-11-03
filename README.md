@@ -10,7 +10,7 @@
 - [x] Use ES6 modules.
 - [x] Create new game using API.
 - [x] Use async and await JavaScript features to consume the API.
-- [x] Style Leader board page.
+- [x] Add Style to Leader board.
 
 ## Built With
 
