@@ -8,7 +8,7 @@
 
 - [x] Design Leader board page.
 - [x] Use ES6 modules.
-- [x] Create new game using API.
+- [x] Add new game using API.
 - [x] Use async and await JavaScript features to consume the API.
 - [x] Add Style to Leader board.
 
